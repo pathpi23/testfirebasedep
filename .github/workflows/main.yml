@@ -11,7 +11,7 @@ on:
     branches: [ main ]
 
 jobs:
-  deploy_to_firebase)hosting:
+  deploy_to_firebase_hosting:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
